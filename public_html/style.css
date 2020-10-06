@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  list-style-type: none;  
+  background-color: silver; 
+  top: 0;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+}
+li{
+    float: left;
+}
+ul li a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 50px 16px;
+    text-transform: uppercase;
+    color: black; 
+}
+li a:hover{
+    color: white;
+    background-color: green;
+}
+a.active{
+    color: white;
+    background-color: green;
+}
+
+main{
+    display: flex;
+    /*background: lightblue;*/
+    margin-top: 100px;
+}
+main > div{
+    display: flex;
+}
+.group-image{
+    position: absolute;
+    bottom:40%;
+    left:50%;
+    border: solid;
+}
+.heart{
+    position: absolute;
+    bottom: 0%;
+    left:0%;
+    z-index: -1;
+    width:100%;
+    margin: auto;
+}
+.click{
+    position: absolute;
+    bottom:35%;
+    left:45%;
+}
